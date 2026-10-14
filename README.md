@@ -6,12 +6,18 @@ Our best scored submission to the ARC White-Box Estimation Challenge 2026 (Phase
 |---|---|---|---|
 | 335981 (`e30_a`) | **3.1163e-9** | ~2.0e-8 | ~158 u (u = 2^31 FLOPs) |
 
+> **Notice.** Our full write-up (a census of public chains, 111 closed avenues with the
+> condition under which each would work, the levers we could not use, and open questions) is in
+> [`WRITEUP.md`](WRITEUP.md). We meant to post it as a topic on the AIcrowd forum, but new forum
+> accounts cannot open topics there (trust level 2 is required), so it lives here instead.
+
 ## Contents
 
 - `estimator.py` — the submitted estimator, byte-identical to the scored package
   (sha256 `6ddd97a96c30397683815c530bfb422f0a49ffdea49e4f7827149ed0a14729b0`).
 - `manifest.json` — the package manifest (whestbench 0.16.1, flopscope 0.12.1, Python 3.14).
 - `e30_a.tar.gz` — the exact package that was uploaded.
+- `WRITEUP.md` — our full write-up (see the notice above).
 
 ## Provenance
 
